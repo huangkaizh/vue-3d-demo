@@ -1,0 +1,237 @@
+{
+  "materials": [
+    {
+      "name": "19_-_Default_alpha",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0,
+          "extensions": {
+            "multiFramesAnim": {
+              "animSpeed": 30.0,
+              "tilesX": 13,
+              "tilesY": 2
+            }
+          }
+        },
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 1
+      },
+      "alphaMode": "BLEND",
+      "emissiveFactor": [
+        0.0,
+        0.8470589,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "images": [
+    {
+      "uri": "5QU8THN2RZ8VY7WU8E9665OD827D2PJ7Q.png"
+    }
+  ],
+  "textures": [
+    {
+      "name": "q_00075_com.png",
+      "sampler": 0,
+      "source": 0
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Plane001",
+      "primitives": [
+        {
+          "material": 0,
+          "mode": 4,
+          "indices": 0,
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          }
+        }
+      ]
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1171,
+      "uri": "MZTWV5HZO2QT1DJ864EW8M3JOO9Y05WJI.bin"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "target": 34963,
+      "byteLength": 20,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "target": 34962,
+      "byteLength": 48,
+      "byteOffset": 72
+    },
+    {
+      "buffer": 0,
+      "target": 34962,
+      "byteLength": 168,
+      "byteOffset": 60
+    },
+    {
+      "buffer": 0,
+      "target": 34962,
+      "byteLength": 32,
+      "byteOffset": 196
+    },
+    {
+      "buffer": 0,
+      "target": 34962,
+      "byteLength": 144,
+      "byteOffset": 140
+    }
+  ],
+  "accessors": [
+    {
+      "componentType": 5123,
+      "type": "SCALAR",
+      "bufferView": 0,
+      "byteOffset": 0,
+      "byteType": 556,
+      "count": 10
+    },
+    {
+      "componentType": 5126,
+      "type": "VEC3",
+      "bufferView": 1,
+      "byteOffset": 0,
+      "byteType": 576,
+      "count": 4,
+      "min": [
+        -0.5,
+        -0.5,
+        -5.00082969665527E-05
+      ],
+      "max": [
+        0.5,
+        0.5,
+        -5.00082969665527E-05
+      ]
+    },
+    {
+      "componentType": 5126,
+      "type": "VEC3",
+      "bufferView": 2,
+      "byteOffset": 0,
+      "byteType": 1407,
+      "count": 14
+    },
+    {
+      "componentType": 5126,
+      "type": "VEC2",
+      "bufferView": 3,
+      "byteOffset": 0,
+      "byteType": 928,
+      "count": 4
+    },
+    {
+      "componentType": 5126,
+      "type": "VEC2",
+      "bufferView": 4,
+      "byteOffset": 0,
+      "byteType": 810,
+      "count": 18
+    }
+  ],
+  "nodes": [
+    {
+      "name": "RootNode",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "children": [
+        1
+      ]
+    },
+    {
+      "name": "body",
+      "translation": [
+        0.0,
+        0.0,
+        1.30377708629226E-08
+      ],
+      "rotation": [
+        -0.70710676908493,
+        0.0,
+        0.0,
+        0.70710676908493
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "children": [
+        2
+      ]
+    },
+    {
+      "name": "Plane001",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mesh": 0
+    }
+  ],
+  "asset": {
+    "generator": "FBX2glTF",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Root Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "samplers": [
+    {}
+  ]
+}
